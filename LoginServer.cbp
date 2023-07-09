@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LoginServer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LoginServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="ws2_32" />
+					<Add library="ssl" />
+					<Add library="crypto" />
+					<Add library="mysql" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LoginServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/Linas/Documents/Server/LoginServer/openssl/include" />
+			<Add directory="C:/Users/Linas/Documents/Server/MySQL/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/Linas/Documents/Server/LoginServer/openssl/lib" />
+			<Add directory="C:/Users/Linas/Documents/Server/MySQL/lib" />
+		</Linker>
+		<Unit filename="include/Client_packets.h" />
+		<Unit filename="include/Server_packets.h" />
+		<Unit filename="include/blowfish.h" />
+		<Unit filename="include/l2_sockets.h" />
+		<Unit filename="include/multi_thread.h" />
+		<Unit filename="include/rsa.h" />
+		<Unit filename="include/types.h" />
+		<Unit filename="include/utility.h" />
+		<Unit filename="lib.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Client_packets.cpp" />
+		<Unit filename="src/Server_packets.cpp" />
+		<Unit filename="src/blowfish.cpp" />
+		<Unit filename="src/l2_sockets.cpp" />
+		<Unit filename="src/multi_thread.cpp" />
+		<Unit filename="src/rsa.cpp" />
+		<Unit filename="src/types.cpp" />
+		<Unit filename="src/utility.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

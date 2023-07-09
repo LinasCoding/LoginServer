@@ -1,0 +1,199 @@
+# depslib dependency file v1.0
+1688827670 source:c:\users\linas\documents\server\loginserver\main.cpp
+	<iostream>
+	"l2_sockets.h"
+
+1668246667 source:c:\users\linas\documents\server\loginserver\src\blowfish.cpp
+	"../include/blowfish.h"
+
+1681463711 c:\users\linas\documents\server\loginserver\include\blowfish.h
+	"openssl/blowfish.h"
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\blowfish.h
+	<openssl/opensslconf.h>
+	<openssl/e_os2.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\opensslconf.h
+	<openssl/opensslv.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\opensslv.h
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\e_os2.h
+	<openssl/opensslconf.h>
+	<inttypes.h>
+	<stdint.h>
+
+1688891984 source:c:\users\linas\documents\server\loginserver\src\rsa.cpp
+	"../include/rsa.h"
+
+1688901645 c:\users\linas\documents\server\loginserver\include\rsa.h
+	"iostream"
+	"openssl/bn.h"
+	"openssl/rsa.h"
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\bn.h
+	<openssl/e_os2.h>
+	<stdio.h>
+	<openssl/opensslconf.h>
+	<openssl/ossl_typ.h>
+	<openssl/crypto.h>
+	<openssl/bnerr.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\ossl_typ.h
+	<limits.h>
+	<openssl/e_os2.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\crypto.h
+	<stdlib.h>
+	<time.h>
+	<openssl/e_os2.h>
+	<stdio.h>
+	<openssl/safestack.h>
+	<openssl/opensslv.h>
+	<openssl/ossl_typ.h>
+	<openssl/opensslconf.h>
+	<openssl/cryptoerr.h>
+	<openssl/ebcdic.h>
+	<openssl/symhacks.h>
+	<openssl/opensslv.h>
+	<pthread.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\safestack.h
+	<openssl/stack.h>
+	<openssl/e_os2.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\stack.h
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\cryptoerr.h
+	<openssl/symhacks.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\symhacks.h
+	<openssl/e_os2.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\ebcdic.h
+	<stdlib.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\bnerr.h
+	<openssl/symhacks.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\rsa.h
+	<openssl/opensslconf.h>
+	<openssl/asn1.h>
+	<openssl/bio.h>
+	<openssl/crypto.h>
+	<openssl/ossl_typ.h>
+	<openssl/bn.h>
+	<openssl/rsaerr.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\asn1.h
+	<time.h>
+	<openssl/e_os2.h>
+	<openssl/opensslconf.h>
+	<openssl/bio.h>
+	<openssl/safestack.h>
+	<openssl/asn1err.h>
+	<openssl/symhacks.h>
+	<openssl/ossl_typ.h>
+	<openssl/bn.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\bio.h
+	<openssl/e_os2.h>
+	<stdio.h>
+	<stdarg.h>
+	<openssl/crypto.h>
+	<openssl/bioerr.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\bioerr.h
+	<openssl/symhacks.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\asn1err.h
+	<openssl/symhacks.h>
+
+1639960524 c:\users\linas\documents\server\loginserver\openssl\include\openssl\rsaerr.h
+	<openssl/symhacks.h>
+
+1666690799 source:c:\users\linas\documents\server\loginserver\src\packets_skeleton.cpp
+	"packets_skeleton.h"
+
+1677360058 c:\users\linas\documents\server\loginserver\include\packets_skeleton.h
+	"../lib.h"
+
+1681129227 source:c:\users\linas\documents\server\loginserver\src\types.cpp
+	"types.h"
+
+1681127378 c:\users\linas\documents\server\loginserver\include\types.h
+	<iostream>
+
+1430741808 c:\users\linas\documents\server\mysql\include\mysql.h
+	<standards.h>
+	<sys/types.h>
+	<winsock2.h>
+	"mysql_version.h"
+	"mysql_com.h"
+	"mysql_time.h"
+	"my_list.h"
+	"typelib.h"
+	"my_alloc.h"
+
+1430744040 c:\users\linas\documents\server\mysql\include\mysql_version.h
+	<custom_conf.h>
+
+1430741808 c:\users\linas\documents\server\mysql\include\mysql_com.h
+
+1430741808 c:\users\linas\documents\server\mysql\include\mysql_time.h
+
+1430741808 c:\users\linas\documents\server\mysql\include\my_list.h
+
+1430741808 c:\users\linas\documents\server\mysql\include\typelib.h
+	"my_alloc.h"
+
+1430741808 c:\users\linas\documents\server\mysql\include\my_alloc.h
+
+1688900464 source:c:\users\linas\documents\server\loginserver\src\l2_sockets.cpp
+	"l2_sockets.h"
+
+1688901979 c:\users\linas\documents\server\loginserver\include\l2_sockets.h
+	"../lib.h"
+	"Server_packets.h"
+	"Client_packets.h"
+
+1681834568 c:\users\linas\documents\server\loginserver\lib.h
+	<iostream>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<thread>
+	<time.h>
+	<stdint.h>
+	<vector>
+	"rsa.h"
+	"blowfish.h"
+	"types.h"
+	"utility.h"
+
+1688891984 source:c:\users\linas\documents\server\loginserver\src\server_packets.cpp
+	"Server_packets.h"
+
+1688901508 c:\users\linas\documents\server\loginserver\include\server_packets.h
+	"../lib.h"
+
+1688901759 source:c:\users\linas\documents\server\loginserver\src\client_packets.cpp
+	"Client_packets.h"
+
+1688901508 c:\users\linas\documents\server\loginserver\include\client_packets.h
+	"../lib.h"
+
+1688901743 c:\users\linas\documents\server\loginserver\include\utility.h
+	"../lib.h"
+
+1688901645 source:c:\users\linas\documents\server\loginserver\src\utility.cpp
+	"utility.h"
+
+1688826527 source:c:\users\linas\documents\server\loginserver\src\multi_thread.cpp
+	"multi_thread.h"
+
+1688826516 c:\users\linas\documents\server\loginserver\include\multi_thread.h
+	<iostream>
+	<thread>
+	<winsock2.h>
+	<mutex>
+

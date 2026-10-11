@@ -138,7 +138,7 @@ int *l2_sockets::sendPacket(unsigned char* packet, int packet_lenght,int socket)
    if(bytesSent == SOCKET_ERROR)
    {
        std::cout<<"Server socket error while sending... "<<WSAGetLastError()<<std::endl;
-       closesocket(bytesSent);
+       closesocket(socket);
    }
    else
    {
@@ -157,7 +157,7 @@ int *l2_sockets::recvPacket(unsigned char *packet, int packet_lenght,int socket)
    if(bytesRecv == SOCKET_ERROR)
    {
        std::cout<<"Server socket error while reveiving... "<<WSAGetLastError()<<std::endl;
-       closesocket(bytesSent);
+       closesocket(socket);
    }
    else
    {
